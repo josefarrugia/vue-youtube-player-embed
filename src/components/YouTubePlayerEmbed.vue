@@ -1,8 +1,8 @@
 <template>
   <div class="wrapper" :style="style">
     <div v-if="videoId" :id="`player_${videoId}`" ref="player" />
-    <div v-else class="errors bg-mid-yellow">
-      <div class="flex items-center justify-center w-full h-full">
+    <div v-else class="errors">
+      <div class="">
         Please provide correct YouTube video id
       </div>
     </div>
@@ -277,14 +277,17 @@ export default {
 
 <style lang="postcss" scoped>
 .wrapper {
-  @apply relative;
-  @apply h-0;
+  position: relative;
+  height: 0;
 
   /* deep css scoped styles for iframe and errors element which is created dynamically by script */
   & >>> iframe,
   & >>> .errors {
-    @apply absolute top-0 left-0;
-    @apply w-full h-full;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%
+    height: 100%;
   }
 }
 </style>
