@@ -22,7 +22,7 @@
     "build-library": "vue-cli-service build --target lib --name vue-youtube-player-embed ./src/install.js",
     "lint": "vue-cli-service lint"
   },
-  "main": ".dist/vue-youtube-player-embed.common.js",
+  "main": "./dist/vue-youtube-player-embed.common.js",
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^2.6.11"
