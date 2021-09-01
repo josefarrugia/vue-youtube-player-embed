@@ -2,7 +2,7 @@ import YouTubePlayerEmbed from './components/YouTubePlayerEmbed'
 
 const YouTubePlayerEmbedInstall = {
   install(Vue) {
-    Vue.component('youtube-player-embed', YouTubePlayerEmbed)
+    Vue.component('you-tube-player-embed', YouTubePlayerEmbed)
   }
 }
 
