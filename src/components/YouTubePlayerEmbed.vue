@@ -16,6 +16,7 @@
  *
  */
 export default {
+  name: 'YouTubePlayerEmbed',
   props: {
     videoId: {
       type: String,
