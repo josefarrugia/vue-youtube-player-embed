@@ -1,7 +1,7 @@
 {
   "name": "vue-youtube-player-embed",
   "description": "A Vue plugin to embed a YouTube video on a page",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "private": false,
   "author": {
     "name": "José Farrugia",
